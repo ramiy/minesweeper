@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mine Sweeper Game</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()" oncontextmenu="return false">
+
+	<div class="container">
+
+		<h1>Mine Sweeper Game</h1>
+
+		<div id="levels">
+		</div>
+
+		<div id="game-data">
+			<div class="flags-left" aria-label="Flags Left"></div>
+			<div class="smiley">
+				<img src="img/smiley-normal.png" onclick="setLevel(gCurrLevelIdx)">
+			</div>
+			<div class="game-time" aria-label="Game Time"></div>
+		</div>
+
+		<table id="board">
+			<tbody></tbody>
+		</table>
+
+		<div id="scores">
+			<h2>Best Times</h2>
+			<ul></ul>
+		</div>
+
+	</div>
+
+	<script src=js/test.js></script>
+	<script src=js/main.js></script>
+
+</body>
+
+</html>

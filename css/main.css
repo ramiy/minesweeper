@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 5px solid #eee;
+}
+
+h1 {
+    font-size: 28px;
+	text-align: center;
+	margin: 0 auto 20px;
+}
+
+h2 {
+	font-size: 1.35em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* Levels */
+
+#levels {
+	margin: 0 auto;
+	text-align: center;
+}
+#levels button {
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 5px;
+}
+
+/* Game data */
+
+#game-data {
+	margin: 20px auto;
+	text-align: center;
+}
+#game-data div {
+	display: inline-block;
+}
+#game-data img {
+	max-width: 100%;
+	width: 50px;
+	height: auto;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#game-data .smiley {
+	width: 34%;
+}
+#game-data .game-time,
+#game-data .flags-left {
+	min-width: 50px;
+	padding: 10px;
+	background-color: black;
+	color: red;
+	font-size: 15px;
+	cursor: default;
+}
+
+/* Board */
+
+#board,
+#board tbody,
+#board tr,
+#board td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#board {
+	margin: 0 auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: #bbb;
+	border: 3px solid black;
+}
+
+#board td {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+#board img {
+	max-width: 100%;
+	border: 0;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+/* Scores */
+
+#scores {
+    width: 120px;
+    margin: 20px auto;
+}
+
+#scores ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+#scores li {
+	clear: both;
+}
+
+#scores li strong {
+	float: left;
+}
+
+#scores li span {
+	float: right;
+}
